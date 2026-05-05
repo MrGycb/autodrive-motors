@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AutoDrive Motors - демонстрационный лендинг автосалона по продаже новых и проверенных автомобилей."
+    />
+    <title>AutoDrive Motors - автомобили с гарантией</title>
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar" aria-label="Основная навигация">
+        <a class="logo" href="#top" aria-label="AutoDrive Motors">
+          <span class="logo-mark">AD</span>
+          <span>
+            <strong>AutoDrive</strong>
+            <small>Motors</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-panel" data-nav-panel>
+          <a href="#top">Главная</a>
+          <a href="#cars">Автомобили</a>
+          <a href="#services">Услуги</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#contacts">Контакты</a>
+          <a class="button button-small" href="#contacts">Подобрать авто</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-dark">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="section-inner hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">Новые и проверенные автомобили с гарантией</p>
+            <h1>Автомобили премиум-класса и надежные модели для каждого дня</h1>
+            <p class="hero-text">
+              AutoDrive Motors помогает выбрать новый или подержанный автомобиль с прозрачной историей,
+              юридической чистотой и понятными условиями покупки.
+            </p>
+            <div class="hero-actions">
+              <a class="button" href="#cars">Смотреть каталог</a>
+              <a class="button button-outline" href="#contacts">Получить консультацию</a>
+            </div>
+            <div class="hero-stats" aria-label="Показатели автосалона">
+              <div>
+                <strong>120+</strong>
+                <span>авто в наличии</span>
+              </div>
+              <div>
+                <strong>7 дней</strong>
+                <span>на обмен</span>
+              </div>
+              <div>
+                <strong>4.9</strong>
+                <span>средняя оценка</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="brands section">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">Марки в продаже</p>
+            <h2>Подбираем автомобили популярных брендов</h2>
+          </div>
+          <div class="brand-grid" aria-label="Марки автомобилей">
+            <span>BMW</span>
+            <span>Mercedes-Benz</span>
+            <span>Audi</span>
+            <span>Toyota</span>
+            <span>Lexus</span>
+            <span>Volkswagen</span>
+            <span>Kia</span>
+            <span>Hyundai</span>
+            <span>Tesla</span>
+            <span>Porsche</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog section" id="cars">
+        <div class="section-inner">
+          <div class="section-heading heading-row">
+            <div>
+              <p class="eyebrow">Каталог</p>
+              <h2>Автомобили в наличии</h2>
+            </div>
+            <a class="button button-secondary" href="#contacts">Запросить подбор</a>
+          </div>
+
+          <div class="car-grid">
+            <article class="car-card">
+              <img
+                src="assets/bmw-5-series-studio.png"
+                alt="BMW 5 Series"
+              />
+              <div class="car-body">
+                <div>
+                  <p class="car-year">2022</p>
+                  <h3>BMW 5 Series</h3>
+                </div>
+                <ul class="car-specs">
+                  <li><span>Пробег</span><strong>28 000 км</strong></li>
+                  <li><span>Двигатель</span><strong>Бензин, 2.0 л</strong></li>
+                </ul>
+                <div class="car-bottom">
+                  <p>от 4 800 000 ₽</p>
+                  <a href="#contacts">Подробнее</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="car-card">
+              <img
+                src="assets/mercedes-e-class-studio.png"
+                alt="Mercedes-Benz E-Class"
+              />
+              <div class="car-body">
+                <div>
+                  <p class="car-year">2021</p>
+                  <h3>Mercedes-Benz E-Class</h3>
+                </div>
+                <ul class="car-specs">
+                  <li><span>Пробег</span><strong>36 000 км</strong></li>
+                  <li><span>Двигатель</span><strong>Дизель, 2.0 л</strong></li>
+                </ul>
+                <div class="car-bottom">
+                  <p>от 5 200 000 ₽</p>
+                  <a href="#contacts">Подробнее</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="car-card">
+              <img
+                src="https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=900&q=80"
+                alt="Audi Q7"
+              />
+              <div class="car-body">
+                <div>
+                  <p class="car-year">2023</p>
+                  <h3>Audi Q7</h3>
+                </div>
+                <ul class="car-specs">
+                  <li><span>Пробег</span><strong>12 000 км</strong></li>
+                  <li><span>Двигатель</span><strong>Бензин, 3.0 л</strong></li>
+                </ul>
+                <div class="car-bottom">
+                  <p>от 7 100 000 ₽</p>
+                  <a href="#contacts">Подробнее</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="car-card">
+              <img
+                src="https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=900&q=80"
+                alt="Toyota Camry"
+              />
+              <div class="car-body">
+                <div>
+                  <p class="car-year">2022</p>
+                  <h3>Toyota Camry</h3>
+                </div>
+                <ul class="car-specs">
+                  <li><span>Пробег</span><strong>22 000 км</strong></li>
+                  <li><span>Двигатель</span><strong>Бензин, 2.5 л</strong></li>
+                </ul>
+                <div class="car-bottom">
+                  <p>от 3 200 000 ₽</p>
+                  <a href="#contacts">Подробнее</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="car-card">
+              <img
+                src="https://images.unsplash.com/photo-1560958089-b8a1929cea89?auto=format&fit=crop&w=900&q=80"
+                alt="Tesla Model 3"
+              />
+              <div class="car-body">
+                <div>
+                  <p class="car-year">2023</p>
+                  <h3>Tesla Model 3</h3>
+                </div>
+                <ul class="car-specs">
+                  <li><span>Пробег</span><strong>9 000 км</strong></li>
+                  <li><span>Двигатель</span><strong>Электро</strong></li>
+                </ul>
+                <div class="car-bottom">
+                  <p>от 4 500 000 ₽</p>
+                  <a href="#contacts">Подробнее</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="car-card">
+              <img
+                src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80"
+                alt="Porsche Macan"
+              />
+              <div class="car-body">
+                <div>
+                  <p class="car-year">2021</p>
+                  <h3>Porsche Macan</h3>
+                </div>
+                <ul class="car-specs">
+                  <li><span>Пробег</span><strong>31 000 км</strong></li>
+                  <li><span>Двигатель</span><strong>Бензин, 2.0 л</strong></li>
+                </ul>
+                <div class="car-bottom">
+                  <p>от 6 900 000 ₽</p>
+                  <a href="#contacts">Подробнее</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="advantages section section-soft">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">Почему выбирают нас</p>
+            <h2>Покупка автомобиля без лишнего риска</h2>
+          </div>
+          <div class="feature-grid">
+            <article><span class="icon">✓</span><h3>Проверенные автомобили</h3><p>Диагностика кузова, двигателя, электроники и истории обслуживания.</p></article>
+            <article><span class="icon">§</span><h3>Юридическая чистота</h3><p>Проверяем ограничения, залоги, ДТП и корректность документов.</p></article>
+            <article><span class="icon">★</span><h3>Гарантия</h3><p>Гарантийная поддержка на ключевые узлы и агрегаты автомобиля.</p></article>
+            <article><span class="icon">↔</span><h3>Trade-in</h3><p>Оценим ваш текущий автомобиль и зачтем его стоимость при покупке.</p></article>
+            <article><span class="icon">₽</span><h3>Кредит и лизинг</h3><p>Подберем финансовую программу с понятным ежемесячным платежом.</p></article>
+            <article><span class="icon">▣</span><h3>Документы под ключ</h3><p>Помогаем оформить договор, страховку и регистрационные документы.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section" id="services">
+        <div class="section-inner split-layout">
+          <div class="section-heading sticky-heading">
+            <p class="eyebrow">Услуги</p>
+            <h2>Все этапы покупки в одном месте</h2>
+            <p>
+              Консультант сопровождает сделку от первого звонка до передачи ключей,
+              чтобы покупка была быстрой и предсказуемой.
+            </p>
+            <a class="button" href="#contacts">Заказать услугу</a>
+          </div>
+          <div class="service-list">
+            <article><span>01</span><h3>Подбор автомобиля</h3><p>Подберем модели под бюджет, задачи и предпочтения.</p></article>
+            <article><span>02</span><h3>Тест-драйв</h3><p>Организуем удобное время и подготовим автомобиль к поездке.</p></article>
+            <article><span>03</span><h3>Диагностика перед покупкой</h3><p>Покажем техническое состояние и честный отчет по машине.</p></article>
+            <article><span>04</span><h3>Оформление кредита</h3><p>Сравним предложения банков и рассчитаем платеж.</p></article>
+            <article><span>05</span><h3>Страхование</h3><p>Оформим ОСАГО, КАСКО и дополнительные программы защиты.</p></article>
+            <article><span>06</span><h3>Доставка автомобиля</h3><p>Организуем доставку по городу или в другой регион.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews section section-dark" id="reviews">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">Отзывы</p>
+            <h2>Клиенты ценят прозрачность сделки</h2>
+          </div>
+          <div class="review-grid">
+            <article>
+              <div class="rating">★★★★★</div>
+              <p>BMW подобрали за два дня, показали диагностику и спокойно объяснили все по документам.</p>
+              <strong>Алексей Морозов</strong>
+            </article>
+            <article>
+              <div class="rating">★★★★★</div>
+              <p>Сдала старую машину в trade-in и уехала на Camry. Сделку оформили без навязанных услуг.</p>
+              <strong>Екатерина Волкова</strong>
+            </article>
+            <article>
+              <div class="rating">★★★★★</div>
+              <p>Нужен был семейный SUV. Менеджер сравнил несколько вариантов и помог с кредитом.</p>
+              <strong>Дмитрий Соколов</strong>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="steps section">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">Как купить автомобиль</p>
+            <h2>Четыре шага до нового автомобиля</h2>
+          </div>
+          <div class="steps-grid">
+            <article><span>1</span><h3>Оставьте заявку</h3><p>Расскажите, какой автомобиль вам нужен.</p></article>
+            <article><span>2</span><h3>Получите подбор</h3><p>Мы подготовим варианты с учетом бюджета.</p></article>
+            <article><span>3</span><h3>Пройдите тест-драйв</h3><p>Проверьте автомобиль в реальных условиях.</p></article>
+            <article><span>4</span><h3>Оформите покупку</h3><p>Подпишите документы и заберите ключи.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq section section-soft">
+        <div class="section-inner narrow">
+          <div class="section-heading">
+            <p class="eyebrow">FAQ</p>
+            <h2>Частые вопросы</h2>
+          </div>
+          <div class="faq-list">
+            <details>
+              <summary>Можно ли купить авто в кредит?</summary>
+              <p>Да, мы подбираем кредитные программы от банков-партнеров и заранее рассчитываем платеж.</p>
+            </details>
+            <details>
+              <summary>Есть ли гарантия?</summary>
+              <p>На проверенные автомобили действует гарантийная поддержка, условия зависят от модели и года выпуска.</p>
+            </details>
+            <details>
+              <summary>Можно ли сдать старый автомобиль в trade-in?</summary>
+              <p>Да, мы проведем оценку, проверим документы и зачтем стоимость старого авто при покупке нового.</p>
+            </details>
+            <details>
+              <summary>Можно ли заказать доставку в другой город?</summary>
+              <p>Да, доставка доступна по России. Стоимость и срок рассчитываются индивидуально.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts section" id="contacts">
+        <div class="section-inner contact-grid">
+          <div>
+            <p class="eyebrow">Контакты</p>
+            <h2>Подберем автомобиль под ваши задачи</h2>
+            <p class="contact-lead">
+              Оставьте заявку, и консультант AutoDrive Motors свяжется с вами,
+              уточнит пожелания и подготовит подходящие автомобили.
+            </p>
+            <div class="contact-list">
+              <a href="tel:+74951234567"><span>☎</span> +7 (495) 123-45-67</a>
+              <a href="mailto:sales@autodrive-motors.ru"><span>@</span> sales@autodrive-motors.ru</a>
+              <p><span>⌂</span> Москва, Ленинградское шоссе, 58</p>
+              <p><span>◷</span> Ежедневно: 09:00-21:00</p>
+            </div>
+          </div>
+
+          <form class="lead-form" aria-label="Форма заявки">
+            <label>
+              Имя
+              <input type="text" name="name" placeholder="Ваше имя" required />
+            </label>
+            <label>
+              Телефон
+              <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required />
+            </label>
+            <label>
+              Интересующая марка автомобиля
+              <input type="text" name="brand" placeholder="Например, BMW или Toyota" />
+            </label>
+            <button class="button" type="submit">Отправить заявку</button>
+            <p class="form-note" data-form-note>
+              Нажимая кнопку, вы соглашаетесь на обратную связь по заявке.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="section-inner footer-inner">
+        <p>© 2026 AutoDrive Motors. Демонстрационный сайт для портфолио.</p>
+        <a href="#top">Наверх</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
